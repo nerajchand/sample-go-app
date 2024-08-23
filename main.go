@@ -12,7 +12,7 @@ func main() {
 	// Method: GET
 	// Resource http://localhost:8080
 	app.Handle("GET", "/", func(ctx iris.Context) {
-		ctx.HTML("<html><body style='background-color:white;'><h1 style='color:black;'>Welcome to Sample Go Web App</h1></body></html>")
+		ctx.HTML("<html><body style='background-color:070720;'><h1 style='color:008FE2;'>Welcome to Blue App</h1></body></html>")
 	})
 
 	// same as app.Handle("GET", "/ping", ..)
